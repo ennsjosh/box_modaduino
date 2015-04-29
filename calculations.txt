@@ -1,0 +1,23 @@
+Pulse with modulation (PWM)
+values range from 0 to 255
+0 = 0v
+255 = 5v
+127 = 2.5v
+
+(PWM # 0-255)*0.0196078431372594 = voltage
+
+voltage/0.0196078431372594 = PWM factor
+
+3.2v = 163
+3.3v = 168
+3.4v = 173
+3.5v = 178
+3.6v = 183
+3.7v = 188
+3.8v = 193
+3.9v = 198
+4.0v = 203
+4.1v = 208
+4.2v = 213
+
+
